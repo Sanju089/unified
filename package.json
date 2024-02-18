@@ -1,12 +1,12 @@
 {
-  "homepage": "https://sanju089.github.io/unified",
+  "homepage": "https://github.com/Sanju089/unified.git",
   "name": "media_dynox",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --outDir=dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy":"npm run build",
