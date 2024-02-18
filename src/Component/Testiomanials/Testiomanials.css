@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.testiomanials{
+    height: 758px;
+    position: relative;
+background: #000000;
+z-index: 1;
+  overflow: hidden;
+  padding: 70px 0px 0px;
+  margin-top: -42px;
+  /* justify-content: center;
+  display: flex; */
+}
+.marginDefault{
+  margin: 0px;
+}
+.reviewSection1{
+    width: 300px;
+    height: 352px;
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.starIcon{
+    width: 116px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftreviewbox{
+    width: fit-content;
+}
+.leftside{
+    width: fit-content;
+    margin-right: -100px;
+}
+.rightside{
+    width: fit-content;
+    margin-left: -100px;
+}
+.testimonalsBox{
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.middleline{
+    width: 305px;
+    border: 1px solid #E5B96F;
+    height: 0px;
+    transform: rotate(90deg);
+}
+.comma{
+    width: 33px;
+    height: 25px;
+}
+.Ellipse30{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.starIcon1{
+    width: 23px;
+    height: 27px;
+    color: orange;
+}
+.testimonial_text{
+    width: 300px;
+    height: 113px;
+    font-size: 20px;
+    line-height: 41px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    color: #C4C4C4;
+}
+.testimonial_credit{
+    width: 148px;
+    height: 51px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+
+}
+.reviwe_name{
+    width: 80px;
+    height: 28px;
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: bold;
+    font-size: 20px;        
+    line-height: 30px;
+    color: #C4C4C4;
+}
+.reviwe_name1{
+    width: 149px;
+    height: 22px;
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C4C4C4;
+}
+.testiomanials_title{
+    width: 1158px;
+    height: 52px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: goldenrod;
+    text-align: center;
+    margin: auto;
+}
+.testiomanials .line_animation .line_area:before {
+    display: none;
+  }
+.line_animation .line_area:before {
+    height: 20px;
+  }
+.line_animation {
+    top: 0px;
+    left: 50%;
+    z-index: -1;
+    width: 100%;
+    bottom: 0px;
+    display: block;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .line_animation .line_area {
+    width: 12.5%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid ;
+  }
+  .line_animation .line_area:before {
+    width: 1px;
+    right: -1px;
+    content: "";
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#ffffff), to(transparent));
+    background-image: linear-gradient(0deg, #ffffff, transparent);
+  }
+  
+  .line_animation .line_area:nth-child(even):before {
+    -webkit-animation: line_animation 20s ease-out infinite;
+    animation: line_animation 20s ease-out infinite;
+  }
+  
+  .line_animation .line_area:nth-child(odd):before {
+    -webkit-animation: line_animation_2 20s ease-out infinite;
+    animation: line_animation_2 20s ease-out infinite;
+  }
+
+  @-webkit-keyframes line_animation {
+    0% {
+      top: 0px;
+      opacity: 1;
+    }
+    50% {
+      top: 50%;
+    }
+    100% {
+      top: 100%;
+      opacity: 1;
+    }
+  }
+@keyframes line_animation {
+    0% {
+      top: 0px;
+      opacity: 1;
+    }
+    50% {
+      top: 50%;
+    }
+    100% {
+      top: 100%;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes line_animation_2 {
+    0% {
+      opacity: 1;
+      bottom: 0px;
+    }
+    50% {
+      bottom: 50%;
+    }
+    100% {
+      bottom: 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes line_animation_2 {
+    0% {
+      opacity: 1;
+      bottom: 0px;
+    }
+    50% {
+      bottom: 50%;
+    }
+    100% {
+      bottom: 100%;
+      opacity: 1;
+    }
+  }
+
+  .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: goldenrod;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* margin: 0 5px; */
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li button:before {
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: white;
+    font-size: 11px;
+}

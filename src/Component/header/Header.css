@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+Row{
+    margin: 0px;
+}
+.section1{
+    background-image: url('../../assets/Rectangle 1.png');
+    /* width: 1440px; */
+    height: 720px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.heroSection{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 40px;
+}
+/* .headerbox{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+} */
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+.goldenClr{
+    background: linear-gradient(to bottom, #fedc38,#feec8b,#4e4e4d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; /* Define the standard property */
+}
+.text1{
+    font-family: "Noto Serif", serif;
+    font-size: 49px;
+    color: #CACACA;
+    line-height: 113%;
+    letter-spacing: 0px;
+    font-style: normal;
+
+}
+.text2{
+    font-size: 22px;
+    line-height: 130%;
+    color: #7D7D7D;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  
+}
+.socialmediabox{
+    position: absolute;
+    width: 0px;
+    transform: rotate(90deg);
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    justify-content: space-evenly;
+    color: #c7c7c7;
+
+}
+.socialmedia{
+    width: 40px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

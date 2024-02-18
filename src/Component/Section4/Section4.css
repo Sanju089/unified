@@ -1,0 +1,81 @@
+.section4{
+    height: 647px;
+    position: relative;
+}
+.section4img{
+    width: 100%;
+}
+.section4_box{
+    /* width: 1139px; */
+    height: 219px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    width: 834px;
+
+}
+.section4_title {
+    font-family: 'Noto Sarif',sans-serif;
+    font-size: 50px;
+    line-height: 69px;
+    font-weight: 300;
+    width: 1139px;
+    text-align: center;
+    word-spacing: 2px;
+
+}
+.reavealboxcss{
+    color: #906312 ;
+     background:#DAA74E;
+     padding:29px 70px;
+     border-radius:4px;
+     margin-left: -27px;
+}
+.forindivual{
+    /* width:387px; */
+    height:90px;
+  
+    font-size:30px;
+    font-family: 'Noto Sarif',sans-serif;
+line-height:48px;
+display:flex;
+align-items:center;
+justify-content:center;
+position: absolute;
+    top: 310px;
+    left: 285px;
+    border-radius: 4px;
+}
+.forcorporate{
+    /* width:387px; */
+    height:90px;
+
+    font-size:30px;
+    font-family: 'Noto Sarif',sans-serif;
+line-height:48px;
+display:flex;
+align-items:center;
+justify-content:center;
+position: absolute;
+    top: 310px;
+    left: 702px;
+    border-radius: 4px;
+}
+.letConnect{
+    width: 181px;
+    height: 44px;
+    border: 1px solid floralwhite;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 475px;
+    left: 600px;
+    border-radius: 4px;
+    font-weight:100;
+    cursor: pointer;
+}

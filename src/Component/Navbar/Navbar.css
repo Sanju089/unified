@@ -1,0 +1,51 @@
+/* Navbar styles */
+.headerbox,
+.headerbox1 {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  position: sticky;
+  top: 0px;
+  text-align: center;
+  margin: 0;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.1);
+}
+
+.headerbox1 {
+  background-color: #000000;
+  border-bottom: 1px solid transparent;
+}
+
+/* Navigation bar styles */
+.nav_bar {
+  padding-right: 31px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #FFFFFF;
+}
+
+.nav_bar li {
+  display: inline-block;
+  margin-right: 20px;
+  transition: filter 0.3s ease;
+  filter: blur(0); /* Initial state: no blur */
+}
+
+.nav_bar li:hover {
+  cursor: pointer;
+  color: gold;
+  /* filter: blur(0); Remove blur effect on hover */
+}
+
+.nav_container li {
+  filter: blur(0);
+}
+
+.nav_container.blur li:not(:hover) {
+  filter: blur(3px); /* Apply blur effect to non-hovered items */
+}

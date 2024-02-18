@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.section2{
+position: relative;
+height: 730px;
+background: #000000;
+z-index: 1;
+  overflow: hidden;
+  padding: 70px 0px 0px;
+  margin: 0px;
+}
+.marginDefault{
+  margin: 0px;
+}
+.section2 .line_animation:before {
+  display: none;
+}
+ .line_animation .line_area:before {
+    display: none;
+  }
+.line_animation .line_area:before {
+    height: 20px;
+  }
+.line_animation {
+    top: 0px;
+    left: 50%;
+    z-index: -1;
+    width: 100%;
+    bottom: 0px;
+    display: block;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .line_animation .line_area {
+    width: 12.5%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid ;
+  }
+  .line_animation .line_area:before {
+    width: 1px;
+    right: -1px;
+    content: "";
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#ffffff), to(transparent));
+    background-image: linear-gradient(0deg, #ffffff, transparent);
+  }
+  
+  .line_animation .line_area:nth-child(even):before {
+    -webkit-animation: line_animation 20s ease-out infinite;
+    animation: line_animation 20s ease-out infinite;
+  }
+  
+  .line_animation .line_area:nth-child(odd):before {
+    -webkit-animation: line_animation_2 20s ease-out infinite;
+    animation: line_animation_2 20s ease-out infinite;
+  }
+
+  @-webkit-keyframes line_animation {
+    0% {
+      top: 0px;
+      opacity: 1;
+    }
+    50% {
+      top: 50%;
+    }
+    100% {
+      top: 100%;
+      opacity: 1;
+    }
+  }
+@keyframes line_animation {
+    0% {
+      top: 0px;
+      opacity: 1;
+    }
+    50% {
+      top: 50%;
+    }
+    100% {
+      top: 100%;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes line_animation_2 {
+    0% {
+      opacity: 1;
+      bottom: 0px;
+    }
+    50% {
+      bottom: 50%;
+    }
+    100% {
+      bottom: 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes line_animation_2 {
+    0% {
+      opacity: 1;
+      bottom: 0px;
+    }
+    50% {
+      bottom: 50%;
+    }
+    100% {
+      bottom: 100%;
+      opacity: 1;
+    }
+  }
+
+  .section2heading{
+    width: 343px;
+    margin-left: 100px;
+    height: 32px;
+    color: #CACACA;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+
+    line-height: 48px;
+  }
+  .section2paragraph{
+    width: 1161px;
+    height: 137px;
+    margin-left: 100px;
+    color: #7d7d7d;
+    line-height: 130%;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    margin-top: 50px;
+
+  }
+  .card1{
+    width: 360px;
+    height: 310px;
+    border: 1px solid grey;
+    border-bottom: solid goldenrod;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+  }
+  .cardbox{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    width: 1159px;
+    height: 310px;
+    gap: 35px;
+  }
+  .card1_text1{
+    width: 316px;
+    height: 25px;
+    font-size: 22px;
+    color: #EDBF6F;
+    font-family: "noto-sarif";
+    font-weight: 400;
+    line-height: 115%;
+  }
+  .card_text2{
+    width: 295px;
+    height: 71px;
+    color: #7d7d7d;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .card1box{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  
+  }
