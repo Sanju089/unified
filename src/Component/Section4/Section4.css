@@ -20,7 +20,8 @@
     font-size: 50px;
     line-height: 69px;
     font-weight: 300;
-    width: 1139px;
+    /* width: 1139px; */
+    display: inline-block;
     text-align: center;
     word-spacing: 2px;
 
