@@ -142,12 +142,13 @@ width: 105px;
 height: 29.43px;
 }
 .advertismentbox{
-    width: 1192px;
+    /* width: 1192px; */
     height: 147px;
     background: #daa74e;
     position: absolute;
     top: -72px;
-    left: 78px;
+    left: 54px;
+    padding: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
