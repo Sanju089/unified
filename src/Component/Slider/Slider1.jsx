@@ -16,32 +16,21 @@ export default function Slider1() {
     <Slider {...settings}>
       <div>               
          <img src={slideImage} alt="slideImage" style={{width:"100%"}}/>
-
       </div>
       <div>
-        
          <img src={slideImage} alt="slideImage" style={{width:"100%"}}/>
-
       </div>
       <div>
-       
          <img src={slideImage} alt="slideImage" style={{width:"100%"}}/>
-
       </div>
       <div>
-       
          <img src={slideImage} alt="slideImage" style={{width:"100%"}}/>
-
       </div>
       <div>
-        <h3>5</h3>
          <img src={slideImage} alt="slideImage" style={{width:"100%"}}/>
-
       </div>
       <div>
-        
          <img src={slideImage} alt="slideImage" style={{width:"100%"}}/>
-
       </div>
     </Slider>
   );

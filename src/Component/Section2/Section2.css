@@ -116,12 +116,12 @@ z-index: 1;
 
   .section2heading{
     width: 343px;
-    margin-left: 50px;
+    margin-left: 100px;
     height: 32px;
     color: #CACACA;
     font-size: 40px;
     font-family: "Roboto", sans-serif;
-
+display: inline-block;
     line-height: 48px;
   }
   .section2paragraph{
